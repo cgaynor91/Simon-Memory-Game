@@ -138,3 +138,121 @@ function clearColor() {
   yellowPad.style.backgroundColor = "#daa520";
   bluePad.style.backgroundColor = "#00008b";
 }
+
+// Function to cause all colours to flash at the same time
+
+function flashColor() {
+  greenPad.style.backgroundColor = "#39ff14";
+  redPad.style.backgroundColor = "#B22222";
+  yellowPad.style.backgroundColor = "#FFF00";
+  bluePad.style.backgroundColor = "#0000FF";
+}
+
+// Functions for wqhen each pads are clicked. 
+// By clicking one pad, a number is pushed into the player sequence array
+// Colour clears after set time 
+
+$(greenPad).on('click', function() {
+  playerOrder.push(1);
+  check();
+  one();
+  if (!win) {
+    setTimeout(function() {
+      clearColor();
+    }, 350);
+  }
+});
+
+$(redPad).on('click', function() {
+  playerOrder.push(2);
+  check();
+  two();
+  if (!win) {
+    setTimeout(function() {
+      clearColor();
+    }, 350);
+  }
+});
+
+$(yellowPad).on('click', function() {
+  playerOrder.push(3);
+  check();
+  three();
+  if (!win) {
+    setTimeout(function() {
+      clearColor();
+    }, 350);
+  }
+});
+
+$(bluePad).on('click', function() {
+  playerOrder.push(4);
+  check();
+  four();
+  if (!win) {
+    setTimeout(function() {
+      clearColor();
+    }, 350);
+  }
+});
+
+// Function created to check and see if 
+// 1. The colour sequence is followed incorrectly
+// 2. If player sequence matches the turn counter
+// 3. If the player has completed 20 levels to win game
+// 4. Also if strict mode is actve and the player has lost a game
+
+function check() {
+  if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
+    good = false;
+
+  if (playerOrder.length == 20 && good) {
+    winGame();
+  }
+
+  if (good == false) {
+    flashColor();
+    $(turnCounter).text("NO!");
+    let audio = document.getElementById("game-over");
+    audio.play();
+    setTimeout(function() {
+      $(turnCounter).text((turn) - 1);
+      clearColor();
+
+      if (strict) {
+        playGame();
+      }
+      else {
+        compTurn = true;
+        flash = 0;
+        playerOrder = [];
+        good = true;
+        intervalId = setInterval(gamePlay, 800);
+      }
+    }, 800);
+
+    volume = false;
+  }
+
+  else if (turn == playerOrder.length && good && !win) {
+    turn++;
+    playerOrder = [];
+    compTurn = true;
+    flash = 0;
+    $(turnCounter).text((turn) - 1);
+    intervalId = setInterval(gamePlay, 800);
+  }
+}
+
+// Function is called upon if the player wins the game - displaying "WIN!" in the counter and playing audio
+
+function winGame() {
+  flashColor();
+  $(turnCounter).text("WIN!");
+  win = true;
+  setTimeout(function() {
+    let audio = document.getElementById("game-win");
+    audio.play();
+  }, 600);
+}
+
