@@ -55,14 +55,21 @@ h1 {
 
 /* Modal */
 
+.modal-content {
+  background-image: url("../images/bgimage.jpg");
+  text-align: left;
+  font-size: 1.2em;
+  color: #39ff14;
+}
+
 .btn-modal {
-    color: #39ff14;
+  color: #39ff14;
   padding-top: 5px;
   font-size: 1.5em;
 }
 
 .btn-modal:hover {
-   color: #fff;
+  color: #fff;
 }
 
 /* Containers */
@@ -102,7 +109,6 @@ h1 {
 
 
 /* Controls */
-
 
 .inner-circle {
   display: -webkit-box;
@@ -144,17 +150,17 @@ h1 {
 }
 
 .start-button {
-    float: left;
-    margin-right: 100px;
-    margin-top: 135px;
-    padding: 10px;
-    line-height: 3em;
-    font-weight: bold;
-    background-color: #39ff14;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border: solid 2px #000;
+  float: left;
+  margin-right: 100px;
+  margin-top: 135px;
+  padding: 10px;
+  line-height: 3em;
+  font-weight: bold;
+  background-color: #39ff14;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: solid 2px #000;
 }
 
 .start-button:active {
@@ -249,7 +255,7 @@ input:checked[type="checkbox"]:before {
   margin: -250px 0px 0px 0px;
   border-style: solid;
   border-width: 5px;
-   box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px grey;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -286,7 +292,7 @@ input:checked[type="checkbox"]:before {
   border-style: solid;
   border-width: 5px;
   box-sizing: border-box;
-   box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px grey;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
