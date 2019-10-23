@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon Memory Game</title>
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet" type="text/css">
+    <link class="favicon" rel="icon" href="assets/images/favicon.ico" type="image/ico">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+  <!-- Main Container -->
+
+  <div class="container-fluid header">
+    <!--main container-->
+    <div class="row">
+      <div class="col">
+        <h1 class="m-4 py-2">Simon Game</h1>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="rules-col col">
+        <a href="https://www.youtube.com/watch?v=1Yqj76Q4jJ4">Rules and Instructions Here!!</a>
+      </div>
+    </div>
+    
+    <!-- will hold the simon board -->
+    <div class="container-fluid outer-circle">
+      <div class="row">
+        <div class="col simon-board">
+          <div class="pads">
+            <div id="greenpad" class="pad green-pad"></div>
+            <div id="redpad" class="pad red-pad"></div>
+            <div id="yellowpad" class="pad yellow-pad"></div>
+            <div id="bluepad" class="pad blue-pad"></div>
+          </div>
+
+<!-- inner -circle of board containg number counter and switches -->
+
+          <div class="inner-circle">
+            <div class="label">Simon</div>
+            <div id="turn" class="display">-</div>
+            <div id="start" class="start-button">Start</div>
+            <div class="container strict">
+              <div class="strict-label">
+                <p>STRICT</p>
+                <div class="strict-switch">
+                  <input type="checkbox" id="strict" class="toggle" checked/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+   <div class="container-fluid footer">
+    <div class="row justify-content-center">
+      <p>Website created by Claire Gaynor &copy;
+        <br> For educational purposes only.</p>
+    </div>
+  </div>
+
+
+
+    <!-- Scripts located at the bottom of the body to ensure quick page loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+
+
+</body>
+
+</html>
