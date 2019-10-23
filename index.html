@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Simon Memory Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simon Memory Game</title>
 
-    <!-- Style sheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet" type="text/css">
-    <link class="favicon" rel="icon" href="assets/images/favicon.ico" type="image/ico">
+  <!-- Style sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet" type="text/css">
+  <link class="favicon" rel="icon" href="assets/images/favicon.ico" type="image/ico">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -27,48 +27,44 @@
         <h1 class="m-4 py-2">Simon Game</h1>
       </div>
     </div>
-    
-    
+
+
     <!-- Button trigger modal - adapted from getbootstrap.com -->
-<button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal">
+    <button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal">
   Rules and Instructions
 </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header px-0 pl-4">
-        <h3 class="modal-title" id="ModalLabel">Rules & Instructions</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header px-0 pl-4">
+            <h3 class="modal-title" id="ModalLabel">Rules & Instructions</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
-      <div class="modal-body">
-       <p class="text-center"> Think fast... SIMON says, "Chase my flashing lights and sounds"!</p> <br>
-         The challenge is to repeat the ever-increasing random signals that SIMON generates.<br>
-       <h4 class="text-center">  How To Play?</h4><br>
-         1. Press red START button; SIMON will give the first signal.<br>
-         2. Repeat the signal by pressing the same pad.<br>
-         3. SIMON will duplicate the first signal and will add one.<br>
-         4. Repeat these two signals by pressing the same colour pads.<br>
-         5. SIMON will duplicate these first two signals and add one.<br>
-         6. You mst reach 20 to win.<br>
-         
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-body">
+            <p class="text-center"> Think fast... SIMON says, "Chase my flashing lights and sounds"!</p> <br> The challenge is to repeat the ever-increasing random signals that SIMON generates.<br>
+            <h4 class="text-center"> How To Play?</h4><br> 1. Press green START button; SIMON will give the first signal.<br> 2. Repeat the signal by pressing the same pad.<br> 3. SIMON will duplicate the first signal and will add one.<br> 4. Repeat these two signals by pressing
+            the same colour pads.<br> 5. SIMON will duplicate these first two signals and add one.<br> 6. You must reach 20 to win.<br><br>
+
+            <h4 class="text-center"> Strict Mode</h4><br> When Strict mode is selected you cannot get your sequence wrong at any point or your game will be reset back to the start
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-    
+
     <div class="row">
       <div class="rules-col col">
         <a href="https://www.youtube.com/watch?v=1Yqj76Q4jJ4" target="_blank">See Demo Video on YouTube Here!!</a>
       </div>
     </div>
-    
+
     <!-- will hold the simon board -->
     <div class="container-fluid outer-circle">
       <div class="row">
@@ -80,7 +76,7 @@
             <div id="bluepad" class="pad blue-pad"></div>
           </div>
 
-<!-- inner -circle of board containg number counter and switches -->
+          <!-- inner -circle of board containg number counter and switches -->
 
           <div class="inner-circle">
             <div class="label">Simon</div>
@@ -99,15 +95,15 @@
       </div>
     </div>
   </div>
-  
-   <div class="container-fluid footer">
+
+  <div class="container-fluid footer">
     <div class="row justify-content-center">
       <p>Website created by Claire Gaynor &copy;
         <br> For educational purposes only.</p>
     </div>
   </div>
-  
-    <!-- Audio Clips -->
+
+  <!-- Audio Clips -->
   <audio id="sound-green" src="assets/sounds/green.mp3"></audio>
   <audio id="sound-red" src="assets/sounds/red.mp3"></audio>
   <audio id="sound-yellow" src="assets/sounds/yellow.mp3"></audio>
@@ -117,12 +113,12 @@
 
 
 
-    <!-- Scripts located at the bottom of the body to ensure quick page loading -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
+  <!-- Scripts located at the bottom of the body to ensure quick page loading -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
 
 
 
