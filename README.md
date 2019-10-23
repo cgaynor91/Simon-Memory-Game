@@ -37,3 +37,27 @@ The original game had 4 settings of difficulty levels, I have adapted this idea 
 ## UX
 
 The aim of the Simon game is to have fun, while testing your memory. The game itself is not too complex in ideals so this lends itself suitable to all age groups. The option of having strict mode means, if younger children are playing strict mode could be disabled in order for them to not be discouraged if they get one wrong and are reverted to the start. Likewise, adults may find this not challenging enough therefore strict mode allows for a greater challenge of memory. 
+
+### Player Experience
+
+- Upon visiting the site players are greeted with a clear one page website. The Simon game itself is located in the middle of the page with the start button and strict button clearly labelled. <br>
+- If the user finds themselves confused at any point there is a "Rules and Instructions" link which, upon clicking, displays a pop-up modal with clear written instructions on how to play. <br>
+- If the user is still struggling to understand the concept of the game there is a link below the "Rules and Instructions" labelled "See Demo Video on Youtube Here!" and this brings them to a clear and concise short video explaing how to play the Simon Game. 
+- When playing the game there is a number display counter which tells the player at every stage what level they are on from 1 - 20. 
+- If the player gets a sequence incorrect the display will advise them "No!" and depending whether in strict mode or not, will revert them back to the start or repeat the pattern again.
+- If the player reaches 20 and wins the game the display will read "Win!"
+
+### User Stories
+
+- As a player I would like to see
+     1. A clean, user friendly website
+     2. Clear and conscise instructions on how to play the game
+     3. Visible and well labelled controls 
+     4. An option to make the game harder 
+     5. Bright colours and sounds that coincide with the game as it plays
+     6. Some form of indicator to advise what level I am on
+     7. A fun game which can be played by both adults and children
+
+
+### Design Ideas
+
