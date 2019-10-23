@@ -53,6 +53,17 @@ h1 {
 }
 
 
+/* Modal */
+
+.btn-modal {
+    color: #39ff14;
+  padding-top: 5px;
+  font-size: 1.5em;
+}
+
+.btn-modal:hover {
+   color: #fff;
+}
 
 /* Containers */
 

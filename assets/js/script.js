@@ -70,7 +70,8 @@ function playGame() {
 
 /* A function to identify if it is the player's turn or the computer's turn. 
 The amount of flashes must match the number in the turn counter - sequence stops and is logged.
-The comptuer reproduces a sequence and checks light id and applies correct light and sound function */
+The comptuer reproduces a sequence and checks light id and applies correct light and sound function
+Code here is partly taken from a tutorial on youtube by freecodecamp(credits & link in Readme)*/
 
 function gamePlay() {
 
@@ -144,7 +145,7 @@ function clearColor() {
 function flashColor() {
   greenPad.style.backgroundColor = "#39ff14";
   redPad.style.backgroundColor = "#B22222";
-  yellowPad.style.backgroundColor = "#FFF00";
+  yellowPad.style.backgroundColor = "#FFFF00";
   bluePad.style.backgroundColor = "#0000FF";
 }
 
