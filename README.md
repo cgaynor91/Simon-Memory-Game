@@ -76,7 +76,7 @@ The aim of the Simon game is to have fun, while testing your memory. The game it
 I kept with the original board of the simon game and wanted to keep the rest of the webpage relatively clear.
 
 - [Desktop Display](assets/wireframes/mockupdesktop.png)<br>
-- [Tablet Display](assets/wireframes/mockuptabeletsimon.png)<br>
+- [Tablet Display](assets/wireframes/mockuptabletsimon.png)<br>
 - [Mobile Display](assets/wireframes/mockupphonesimon.png)<br>
 
 

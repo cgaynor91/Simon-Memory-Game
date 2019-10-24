@@ -160,7 +160,7 @@ $(greenPad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 350);
+    }, 400);
   }
 });
 
@@ -171,7 +171,7 @@ $(redPad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 350);
+    }, 400);
   }
 });
 
@@ -182,7 +182,7 @@ $(yellowPad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 350);
+    }, 400);
   }
 });
 
@@ -193,7 +193,7 @@ $(bluePad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 350);
+    }, 400);
   }
 });
 
@@ -254,6 +254,6 @@ function winGame() {
   setTimeout(function() {
     let audio = document.getElementById("game-win");
     audio.play();
-  }, 600);
+  }, 800);
 }
 
