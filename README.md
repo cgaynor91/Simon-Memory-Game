@@ -61,7 +61,25 @@ The aim of the Simon game is to have fun, while testing your memory. The game it
 
 ### Design Ideas
 
-When designing the game I wanted to stick with the original layout of the circular Simon board however, as the game is "old-school" I wanted to give it a retro, arcade style look. The game was originally built as a handheld device. As I was creating the game to be played on computer devices I wanted the game to still have a retro feel. 
+- When designing the game I wanted to stick with the original layout of the circular Simon board however, as the game is "old-school" I wanted to give it a retro, arcade style look. The game was originally built as a handheld device. As I was creating the game to be played on computer devices I wanted the game to still have a retro feel. 
 
-I incorporated this arcade style by having a space invaders theme, a popular arcade game from the 1980's. Using a space image as my background and similar coulours and sounds to space invaders I was able to make the Simon Board game have the feel of an arcade game. 
+- I incorporated this arcade style by having a space invaders theme, a popular arcade game from the 1980's. Using a space image as my background and similar coulours and sounds to space invaders I was able to make the Simon Board game have the feel of an arcade game. 
 
+- I also used audio clips from old games to reinforce the theme, from the audios used to signy which colour pad is being selected to audio played when you win or lose the game. 
+
+- The font I selected as the primary font is *"Fascinate Inline"* as it lends itself to the old style theme. 
+
+- All the colours I used were primary block colours. Having the colours primary is in keeping with the original Simon Game and also compares to arcade games of the 80's which used bright primary colours. I used luminuous green for the modal link, the demo video link, the start and strict button. I thought this tied in nicely with the space invaders theme and also draws the users eyes to these features. 
+
+### Wireframes
+
+I kept with the original board of the simon game and wanted to keep the rest of the webpage relatively clear.
+
+- [Desktop Display](assets/wireframes/mockupdesktop.png)<br>
+- [Tablet Display](assets/wireframes/mockuptabeletsimon.png)<br>
+- [Mobile Display](assets/wireframes/mockupphonesimon.png)<br>
+
+
+### Features
+
+As I mentioned above the website has a
