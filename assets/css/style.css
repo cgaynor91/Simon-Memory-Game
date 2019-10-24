@@ -325,7 +325,7 @@ input:checked[type="checkbox"]:before {
   }
 
   .container.strict {
-    bottom: -1vw;
+    bottom: 1vw;
     height: 15vw;
     width: 25vw;
     margin-left: 9vw;
