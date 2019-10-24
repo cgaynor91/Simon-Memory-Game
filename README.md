@@ -58,6 +58,10 @@ The aim of the Simon game is to have fun, while testing your memory. The game it
 
 ### Design Ideas
 
+<h1 align="center">
+<img src="assets/wireframes/simongame.jpg" width=420 alt="Simon Board">
+</h1>
+
 - When designing the game I wanted to stick with the original layout of the circular Simon board however, as the game is "old-school" I wanted to give it a retro, arcade style look. The game was originally built as a handheld device. As I was creating the game to be played on computer devices I wanted the game to still have a retro feel. 
 
 - I incorporated this arcade style by having a space invaders theme, a popular arcade game from the 1980's. Using a space image as my background and similar coulours and sounds to space invaders I was able to make the Simon Board game have the feel of an arcade game. 
@@ -245,4 +249,4 @@ If you wish to clone this project from GitHub:
 
 ### Acknowledgements
 
-I would like to thank my family, who undoubtedly never want to play the simon game again. 
+I would like to thank my family, who undoubtedly never want to play the Simon Game again. 
