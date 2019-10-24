@@ -296,3 +296,55 @@ input:checked[type="checkbox"]:before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
+/* Media Queires */
+
+@media screen and (max-device-width: 812px) {
+
+  .label {
+    font-size: 6vw;
+
+  }
+
+  #turn {
+    top: 13vw;
+    width: 13vw;
+    height: 9vw;
+    font-size: 5vw;
+    line-height: 7vw;
+    border-radius: 2.3vw;
+  }
+
+  #start {
+    font-size: 2.7vw;
+    height: 11.3vw;
+    width: 11.3vw;
+    margin-right: 16.2vw;
+    margin-top: 22.8vw;
+    padding: 1.6vw 1.4vw;
+  }
+
+  .container.strict {
+    bottom: -1vw;
+    height: 15vw;
+    width: 25vw;
+margin-left: 9vw;
+font-size: 3vw;
+  }
+  input[type="checkbox"] {
+    height: 6.1vw;
+    width: 11.3vw;
+    border-radius: 25vw;
+    -webkit-box-shadow: inset 0 0 2vw rgb(103, 103, 103);
+    -o-box-shadow: inset 0 0 2vw rgb(103, 103, 103);
+    box-shadow: inset 0 0 2vw rgb(103, 103, 103);
+  }
+  input[type="checkbox"]:before {
+    height: 6.1vw;
+    width: 6.1vw;
+  }
+
+  input:checked[type="checkbox"]:before {
+    left: 6.1vw;
+  }
+}
