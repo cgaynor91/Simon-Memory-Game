@@ -3,7 +3,7 @@ Interactive Frontend Development
 <br> Second Milestone Project
 </h1>
 
-For my second milestone project I decided to create the [Simon Memory Game](https://github.com/cgaynor91/Simon-Memory-Game/). This game dates back to 1978 when it was first manufactured by Milton Bradley in 1978. The game is a test of memory. The programme creates a series of sounds and lights and requires the player to then repeat the sequence. Provided the player succeeds the sequence continues, incrementing by one each time. 
+For my second milestone project I decided to create the [Simon Memory Game](https://github.com/cgaynor91/Simon-Memory-Game.git). This game dates back to 1978 when it was first manufactured by Milton Bradley in 1978. The game is a test of memory. The programme creates a series of sounds and lights and requires the player to then repeat the sequence. Provided the player succeeds the sequence continues, incrementing by one each time. 
 
 The original game had 4 settings of difficulty levels, I have adapted this idea by implementing a "strict mode". In this mode the player must get each sequence correctly, failure to do so would revert the player back to the beginning. In order for the player to win the game they must repeat the sequenec correctly 20 times. 
 
@@ -156,3 +156,58 @@ I kept with the original board of the simon game and wanted to keep the rest of 
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. 
 
 - [Code Beautify JavaScript Validator](https://codebeautify.org/jsvalidate) was used to validate Javascript code. 
+
+
+#### Addressing Testing from User Stories
+
+*As a player I would like to see a clean, user friendly website*
+
+The website layout is clear and uncluttered. The user is immediately greeted with the game and written and visual innstructions on how tp play.
+
+*As a player I would like to see clear and conscise instructions on how to play the game*
+
+There is a rules and instructions link located directly below the title of the game in bright green. Selecting this will display a modal which explains the purpose of the game, how to play and how to increase difficulty. If the user is still confused about the game another link is provided below the rules and instructions bringing the user to a demonstrational video of the game on Youtube. 
+
+*As a player I would like to see visible and well labelled controls*
+
+The controls are nicely styled and well labelled for the user. They are evident from once you first load the website. The colours in the game light up and play unique sounds for the user throughout the game. The start button and the strict button are both in bright green, drawing the users attention to them on the board. 
+
+*As a player I would like to see an option to make the game harder*
+
+A strict slider has been provided for the user, when activated it is bright green, when deactivated it is dark green. This option allows the user to increase the difficuluty of the game. I f the strict slighter is activated the player must get the sequence right everytime or the game will revert back to 0 and the user must start again. 
+
+*As a player I would like to see bright colours and sounds that coincide with the game as it plays*
+
+The game was styled with the theme of a retro arcade game in mind. This means the styling is quite bright, using block primary colours and luminuouscolours. The pads on the game are all block primary colours and when clicked upon light up and they each play their own unique sounds. 
+
+*As a player I would like to see some form of indicator to advise what level I am on*
+
+The number display in the center of the board displays what level the user is on. The display increases by one as each sequence is correctly matched. If the user makes a mistake the display will tell them "NO!!" and similaily if the player wins the display will show "WIN!!".
+
+## Deployment
+
+This website is hosted using GitHub pages which were deployed directly from the master branch. The webiste will automatically update when updated commits are made to the master branch. 
+The webiste was developed using Cloud9 IDE, it was then committed to git and pushed to GitHub using the terminal in Cloud9.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+- Log into GitHub.
+- Select the repository **cgaynor91/Simon-memory-Game**.
+- At the top of the page, under the "watch" icon select *settings*.
+- Scroll down to the GitHub Pages section.
+- Under Source, click on the dropdown menu and select **Master Branch**
+- The selection refreshes the page and in turn the website is deployed
+- The live link for the webiste will now appear beneath the **GitHub Pages** header. 
+
+
+### How to run this project locally
+If you wish to clone this project from GitHub:
+
+- Click on this [link](https://github.com/cgaynor91/Simon-Memory-Game.git) to the GitHub repository.
+- There is a green button saying "Clone or download" - click on this.
+- Copy the clone URL for the repository.
+- Open Git Bash in your local IDE.
+- Change the current working directory to the location where you want the cloned directory to be created.
+- Type git clone, and then paste the URL copied in Step 3.
+- git clone https://github.com/yourusername/repository
+- Press Enter to create your local clone.
