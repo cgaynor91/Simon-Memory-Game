@@ -22,7 +22,7 @@ const startButton = document.getElementById("start");
 // Adapt game to play in strict mode if selected
 
 $(strictButton).on('click', function() {
-  if (strictButton.checked == true) {
+  if (strictButton.checked === true) {
     strict = true;
     turn = 1;
     clearInterval(intervalId);

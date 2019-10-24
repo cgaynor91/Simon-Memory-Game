@@ -82,4 +82,77 @@ I kept with the original board of the simon game and wanted to keep the rest of 
 
 ### Features
 
-As I mentioned above the website has a
+#### Dashboard
+
+- When you first arrive at the page you are greeted with the Game title, a link to click for a modal for rules and instructions and a further link below this to bring you to a demo video of the game. 
+
+- Below these three is the simon board game itself, by clicking any of the pads the user will be able to initiate a game. 
+
+- When the user is first on the website the number display will show "-" until a pad is clicked. 
+
+- Strict mode is automatically selected and this is highlighted to the user as the toggle is bright green when active. 
+
+#### Rules and Instructions Modal
+
+-  When the user clicks on the Rules and Instructions link they are presented with the game information, some of which was taken from the original game publishers Milton Bradley. The instructions are clear and easy to read as they are broken down numerically. The modal breaks down what the purpose of the game is, how to play and what strict mode is. 
+
+#### Demo Link
+
+- As some players might not understand the rules or would prefer to see the game being played first I included a link for a demonstrational video on Youtube so that the user can watch someone play the game to unerstand it better.
+
+#### Simon Board
+
+- The coloured pads are the main interactive components of the game. 
+
+- The Board itself containers four coloured pads, the player can initiate a game by clicking one of these pads which will start a new game. 
+
+- When the game starts a sequence will begin, a coloured pad will light up and create a sound, all pads have their own sounds. 
+
+#### Number Display
+
+- The board contains a number display which allows the user to keep track of what level their on. When the game is first loaded the display shows "-", however as the player continues through the game the display will increase count from 1 up to 20. Should the player get the sequence wrong the display will read **"NO!!"**, if the player reaches 20 the display will read **"WIN!!"**. 
+
+#### Strict Mode
+
+- There is a toggle button located below the display labelled strict mode. Strict mode allows the user to increase the difficulty of the game. Strict mode is automatically active and this is shown as it is highlighted in luminuous green, should the player toggle the button to deactive strict mode the colour will change to a dark green. 
+
+- If activated and the player makes a mistake in the sequence the display will revert back to 0 and the sequence will begin again.
+
+- If the player is not playing in strict mode and elects to do so during the game, again it will be reverted back to 0. 
+
+
+## Technologies Used
+
+- [Bootstrap](https://getbootstrap.com/) 
+   - The Bootstrap framework was used to create a responsive design and plan the overall layout of the website. 
+- [Google Fonts](https://fonts.google.com/)
+    - Used Google Fonts to style the website using arcade styled font
+    
+- [JQuery](https://jquery.com/)
+    - This was used to work with the DOM
+ 
+- [FavIcon](https://www.favicongenerator.com/)
+  - I used the FavIcon generator to create the page icon and compress it to its required size.
+
+- [Git](https://git-scm.com/)
+  - Use of git to commit different stages of my project
+
+- HTML
+    
+- CSS
+
+- JavaScript
+
+## Testing 
+
+ - Using [Browserling](https://www.browserling.com/) I tested the website across multiple browsers to ensure responsiveness and compatibility. 
+ 
+ - Using Google Chrome developer tools I tested the websites responsiveness across various devices ie. iPhone, Android and Tablets. 
+ 
+ - Manually tested all the hover styling on the navbar and also the links - all operating correctly.
+
+- [W3C Markup Validation Service](https://validator.w3.org/) was used to validate HTML code
+
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. 
+
+- [Code Beautify JavaScript Validator](https://codebeautify.org/jsvalidate) was used to validate Javascript code. 
