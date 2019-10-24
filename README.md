@@ -60,7 +60,7 @@ The aim of the Simon game is to have fun, while testing your memory. The game it
 
 <div class="center">
 <img src="assets/wireframes/simongame.jpg" width=420 alt="Simon Board"> 
-<img src="assets/wireframes/spaceinvaders.jpg" width=420 alt="Space Invaders">
+<img src="assets/wireframes/spaceinvaders.png" width=420 alt="Space Invaders">
 </div>
 
 - When designing the game I wanted to stick with the original layout of the circular Simon board however, as the game is "old-school" I wanted to give it a retro, arcade style look. The game was originally built as a handheld device. As I was creating the game to be played on computer devices I wanted the game to still have a retro feel. 
