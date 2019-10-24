@@ -157,7 +157,15 @@ I kept with the original board of the simon game and wanted to keep the rest of 
 
 ### Issues when testing
 
- - On some browsers, if the sequence shows the same colour twice it fails to play a sound the second time which may confuse some players. 
+ - On some browsers, if the sequence shows the same colour twice it fails to play a sound the second time which may confuse some players. I was able to fix this bug by adding the below function which resets the audio to the start to ensure the audio is played for **each** sequence.
+
+ ```javascript
+ function playAudio(audio) {
+  if (volume === true) {
+    audio.play();
+    audio.currentTime = 0;
+    }
+```
 
 
 #### Addressing Testing from User Stories

@@ -131,6 +131,15 @@ function four() {
   bluePad.style.backgroundColor = "#0000ff";
 }
 
+// Function to reset audio back to start to ensure the audio plays for each sequence
+
+function playAudio(audio) {
+  if (volume === true) {
+    audio.play();
+    audio.currentTime = 0;
+  }
+}
+
 // Returns pads to their original state
 
 function clearColor() {
