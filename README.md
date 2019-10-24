@@ -14,11 +14,8 @@ The original game had 4 settings of difficulty levels, I have adapted this idea 
     - [**User Stories**](#user-stories)
     - [**Design Ideas**](#design-ideas)
     - [**Wireframes**](#wireframes)
-    - [**Developer and Business Purpose**](#developer-and-business-purpose)
 
 2. [**Features**](#features)
-    - [**Existing Features**](#existing-features)
-    - [**Features Left to Implement**](#features-left-to-implement)
 
 3. [**Technologies Used**](#technologies-used)
 
@@ -156,6 +153,7 @@ I kept with the original board of the simon game and wanted to keep the rest of 
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. 
 
 - [Code Beautify JavaScript Validator](https://codebeautify.org/jsvalidate) was used to validate Javascript code. 
+
 
 ### Issues when testing
 
