@@ -157,6 +157,10 @@ I kept with the original board of the simon game and wanted to keep the rest of 
 
 - [Code Beautify JavaScript Validator](https://codebeautify.org/jsvalidate) was used to validate Javascript code. 
 
+### Issues when testing
+
+ - On some browsers, if the sequence shows the same colour twice it fails to play a sound the second time which may confuse some players. 
+
 
 #### Addressing Testing from User Stories
 
@@ -187,7 +191,7 @@ The number display in the center of the board displays what level the user is on
 ## Deployment
 
 This website is hosted using GitHub pages which were deployed directly from the master branch. The webiste will automatically update when updated commits are made to the master branch. 
-The webiste was developed using Cloud9 IDE, it was then committed to git and pushed to GitHub using the terminal in Cloud9.
+The webiste was developed using AWS IDE, it was then committed to git and pushed to GitHub using the terminal in AWS.
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
@@ -211,3 +215,28 @@ If you wish to clone this project from GitHub:
 - Type git clone, and then paste the URL copied in Step 3.
 - git clone https://github.com/yourusername/repository
 - Press Enter to create your local clone.
+
+
+## Credits
+
+### Content
+
+- Text was taken from Milton Bradleys 1978 instructions manual to sue in the rules and instructions modal
+
+### Media
+
+- The background image was taken from Google Image Search
+- The youtube link was taken from [This site](https://www.youtube.com/watch?v=1Yqj76Q4jJ4)
+- The audio clips were converted to mp3s and downloaded from [Zapslat](https://www.zapsplat.com/sound-effect-category/game-sounds/)
+
+### Help With Code
+
+- Inspiration for the HTML code I got from [How to Program a Simon Game: HTML](https://www.youtube.com/watch?v=zwKoo7VDj44).
+- Inspiration for the CSS code I got from [How to Program Simon Game: CSS](https://www.youtube.com/watch?v=muPIIfjazcU).
+- An idea on how to get started and how the JavaScript code could work I got from [Simon Game JavaScript Tutorial for Beginners](https://www.youtube.com/watch?v=n_ec3eowFLQ). I did use some of the code in this tutorial however I did adapt it to suit my own game. 
+- I got the code for my modal on [w3schools](https://www.w3schools.com/bootstrap/bootstrap_modal.asp).
+- I also found myself re-watching a lot of the videos and tutorials on [Code Institute](https://codeinstitute.net/), especially The Document Object Model tutorial. 
+
+### Acknowledgements
+
+I would like to thank my family, who undoubtedly never want to play the simon game again. 
