@@ -75,7 +75,7 @@ Code here is partly taken from a tutorial on youtube by freecodecamp(credits & l
 
 function gamePlay() {
 
-  if (flash == turn) {
+  if (flash === turn) {
     clearInterval(intervalId);
     compTurn = false;
     clearColor();
@@ -220,7 +220,7 @@ function check() {
     winGame();
   }
 
-  if (good == false) {
+  if (good === false) {
     flashColor();
     $(turnCounter).text("NO!");
     let audio = document.getElementById("game-over");
