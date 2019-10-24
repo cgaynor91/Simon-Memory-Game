@@ -144,7 +144,7 @@ function clearColor() {
 
 function flashColor() {
   greenPad.style.backgroundColor = "#39ff14";
-  redPad.style.backgroundColor = "#FF6347";
+  redPad.style.backgroundColor = "#FF0000";
   yellowPad.style.backgroundColor = "#FFFF00";
   bluePad.style.backgroundColor = "#0000FF";
 }
