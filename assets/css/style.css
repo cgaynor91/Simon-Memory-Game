@@ -328,8 +328,8 @@ input:checked[type="checkbox"]:before {
     bottom: -1vw;
     height: 15vw;
     width: 25vw;
-margin-left: 9vw;
-font-size: 3vw;
+    margin-left: 9vw;
+    font-size: 3vw;
   }
   input[type="checkbox"] {
     height: 6.1vw;
@@ -347,4 +347,5 @@ font-size: 3vw;
   input:checked[type="checkbox"]:before {
     left: 6.1vw;
   }
+  
 }

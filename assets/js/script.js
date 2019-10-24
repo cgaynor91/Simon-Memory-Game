@@ -89,7 +89,7 @@ function gamePlay() {
       if (order[flash] == 3) three();
       if (order[flash] == 4) four();
       flash++;
-    }, 200);
+    }, 350);
   }
 }
 
@@ -144,7 +144,7 @@ function clearColor() {
 
 function flashColor() {
   greenPad.style.backgroundColor = "#39ff14";
-  redPad.style.backgroundColor = "#B22222";
+  redPad.style.backgroundColor = "#FF6347";
   yellowPad.style.backgroundColor = "#FFFF00";
   bluePad.style.backgroundColor = "#0000FF";
 }
@@ -160,7 +160,7 @@ $(greenPad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 400);
+    }, 300);
   }
 });
 
@@ -171,7 +171,7 @@ $(redPad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 400);
+    }, 300);
   }
 });
 
@@ -182,7 +182,7 @@ $(yellowPad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 400);
+    }, 300);
   }
 });
 
@@ -193,7 +193,7 @@ $(bluePad).on('click', function() {
   if (!win) {
     setTimeout(function() {
       clearColor();
-    }, 400);
+    }, 300);
   }
 });
 
@@ -256,4 +256,3 @@ function winGame() {
     audio.play();
   }, 800);
 }
-
